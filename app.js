@@ -21,6 +21,19 @@ function actualizarListAmigos(){
         const items = document.createElement("li");
         items.textContent = amigosregistrados;
         listaAmimgos.appendChild(items);
-        console.log("llegue aqui")
     });
+}
+
+function sortearAmigo(){
+    if(amigosSorteo == ""){
+        alert("Aun no hay amigos asignados para realizar el sorteo")
+    }else{
+        let indiceGanador = Math.floor(Math.random()*amigosSorteo.length)
+
+        let amigoVictorioso = amigosSorteo[indiceGanador]
+
+        let resultado = document.getElementById("resultado");
+
+        resultado.innerHTML=amigoVictorioso;
+    }
 }
