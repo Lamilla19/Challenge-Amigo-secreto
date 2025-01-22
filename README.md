@@ -43,8 +43,8 @@ Amigo-Secreto-App/
 ## Ejemplo de uso
 
 1. **Agregar nombres**:
-   - Escribe "Ana" en el campo de texto y haz clic en "Adicionar".
-   - Escribe "Luis" en el campo de texto y haz clic en "Adicionar".
+   - Escribe "Ana" en el campo de texto y haz clic en "Añadir".
+   - Escribe "Luis" en el campo de texto y haz clic en "Añadir".
    - Repite el proceso para cada participante.
 
 2. **Sortear amigo secreto**:
